@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget{
         home: Scaffold(
             appBar: AppBar(
                 centerTitle: true,
-                title: Text('Welconte to Next')),
+                title: Text('Welconte to Next & Flutter')),
             body: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(

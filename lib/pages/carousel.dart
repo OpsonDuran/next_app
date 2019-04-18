@@ -32,14 +32,14 @@ class _CarouselState extends State<Carousel> {
           pageView: PageView(
             children: <Widget>[
               SafeArea(
-                  child: Page("assets/flutter-framework.png", "Next generation",
-                      "Lorem Ipsum is simply dummy text\nof the printing and typesetting")),
+                  child: Page("assets/nave.png", "Excelencia y Calidad",
+                      "Buscamos fomentar la calidad de las arquitecturas y\n las implementaciones en nuestros proyectos \n asegurando la aplicación de las buenas prácticas.")),
               SafeArea(
-                  child: Page("assets/nave.png", "Next technologies",
-                      "Lorem Ipsum is simply dummy text\nof the printing and typesetting")),
+                  child: Page("assets/inovacion.png", "Innovación",
+                      "De la mano del radar de tecnologías, pretendemos\n trabajar utilizando las últimas tecnologías y aplicarlas \n utilizando las técnicas más modernas de desarrollo.")),
               SafeArea(
-                  child: PageTree("assets/flu.png", "This is Flutter",
-                      "Lorem Ipsum is simply dummy text\nof the printing and typesetting")),
+                  child: PageTree("assets/pasion.png", "Pasión",
+                      "Queremos gente apasionada que busque la\n excelencia en el desarrollo y quiera formar parte del \n proceso de polinización tecnológica dentro de Next")),
             ],
             controller: controller,
           ),

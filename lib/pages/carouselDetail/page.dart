@@ -129,11 +129,6 @@ class PageTree extends StatelessWidget {
                 child: Container(
                   width: 220,
                   height: 220,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(1000),
-                      image: DecorationImage(
-                          image: AssetImage("assets/circulo.png"),
-                          fit: BoxFit.cover)),
                   child: Image.asset(
                     image,
                     height: 210,
@@ -226,7 +221,7 @@ class PageTree extends StatelessWidget {
                 color: Color(0xFFFFFFFF),
                 onPressed: ()=>Navigator.pushNamed(context, '/tree'),
                 child: Text(
-                  "Finish",
+                  "Next",
                   style: TextStyle(fontSize: 24, color: Colors.blueAccent,fontWeight: FontWeight.bold),
                 ),
               ),
